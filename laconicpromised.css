@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+.laconicpromised {
+	box-shadow: #828282 1px 1px 5px;
+	position: relative;
+}
+.laconicpromised dt {
+	color: #FFFFFB;
+	background-color: #434343;
+	width: 154px;
+	height: 30px;
+	line-height: 30px;
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+	position: absolute;
+	top: 62px;
+	left: -62px;
+}
+.laconicpromised dd {
+	position: absolute;
+	height: 154px;
+	background-color: #FFFFFB;
+}
