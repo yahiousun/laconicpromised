@@ -51,6 +51,7 @@ table {
 	width: 728px;
 	height: 154px;
 	margin: 20px auto;
+	overflow: hidden;
 }
 </style>
 <link href="laconicpromised.css" rel="stylesheet" />
@@ -58,7 +59,9 @@ table {
 <script src="jquery.laconicpromised.js"></script>
 <script>
 $(document).ready(function(e) {
-	$('#demo').laconicpromised();
+	$('#demo').laconicpromised({
+		autoplay: true
+	});
 });
 </script>
 </head>
@@ -77,11 +80,11 @@ $(document).ready(function(e) {
 <dd></dd>
 </dl>
 <dl id="demo" class="laconicpromised">
-	<dt>slide - 1</dt>
+	<dt>中文slide - 1</dt>
 	<dd>content - 1</dd>
-	<dt>slide - 2</dt>
+	<dt>日本語slide - 2</dt>
 	<dd>content - 2</dd>
-	<dt>slide - 3</dt>
+	<dt>한국의slide - 3</dt>
 	<dd>content - 3</dd>
 	<dt>slide - 4</dt>
 	<dd>content - 4</dd>
