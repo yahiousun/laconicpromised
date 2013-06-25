@@ -4,8 +4,10 @@
 .laconicpromised {
 	box-shadow: #828282 1px 1px 5px;
 	position: relative;
+
 }
 .laconicpromised dt {
+	display: block;
 	color: #FFFFFB;
 	background-color: #434343;
 	width: 154px;
@@ -18,6 +20,7 @@
 	position: absolute;
 	top: 62px;
 	left: -62px;
+	-ms-layout-flow: vertical-ideographic;
 	layout-flow: vertical-ideographic;
 }
 .laconicpromised dt .cn {
